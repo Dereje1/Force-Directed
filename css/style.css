@@ -1,0 +1,45 @@
+body {
+  margin-top: 20px;
+  background-color: #252525;
+  margin-bottom: 2em;
+}
+
+body .container-fluid {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+body .container-fluid .xaxis text {
+  font: 12px sans-serif;
+  fill: white;
+}
+
+body .container-fluid .xaxis path,
+body .container-fluid .xaxis line {
+  fill: none;
+  stroke: white;
+  shape-rendering: crispEdges;
+}
+
+body .container-fluid .yaxis text {
+  font: 12px sans-serif;
+  fill: white;
+}
+
+body .container-fluid .yaxis path,
+body .container-fluid .yaxis line {
+  fill: none;
+  stroke: white;
+  shape-rendering: crispEdges;
+  visibility: hidden;
+}
+
+body .container-fluid #info {
+  margin-top: 30px;
+  color: white;
+}
+
+body .container-fluid #info a, body .container-fluid #info a:active, body .container-fluid #info a:hover, body .container-fluid #info a:visited, body .container-fluid #info a:active, body .container-fluid #info a:hover {
+  color: yellow;
+  text-decoration: none;
+}
