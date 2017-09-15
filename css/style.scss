@@ -11,12 +11,12 @@ body{
 
       #flags{
         position: absolute;
-
       }
-
       .links{
         stroke:white;
+        stroke-width:1.5px;
       }
+      /* sprite sheet had to be directly emebeded here or will not work*/
       .flag {
           position: absolute;
           width: 16px;

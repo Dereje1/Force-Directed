@@ -7,6 +7,7 @@ body {
 body .container-fluid {
   margin-left: 5%;
   margin-right: 5%;
+  /* sprite sheet had to be directly emebeded here or will not work*/
 }
 
 body .container-fluid #flags {
@@ -15,6 +16,7 @@ body .container-fluid #flags {
 
 body .container-fluid .links {
   stroke: white;
+  stroke-width: 1.5px;
 }
 
 body .container-fluid .flag {
